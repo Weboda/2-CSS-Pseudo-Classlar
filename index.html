@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OnlyJS - Pseudo Classes</title>
+    <style>
+        a:link {
+            color: rgb(200, 245, 200);
+        }
+
+        a:visited {
+            color: green;
+        }
+
+        a:hover {
+            color:cadetblue;
+        }
+
+        a:active {
+            color: violet;
+        }
+
+        button {
+            background-color: blue;
+            color: white;
+            scale: 1.5;
+            margin-left: 100px;
+            border: 1px solid red;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: aqua;
+            color: rgb(187, 99, 99);
+        }
+
+        button:active {
+            background-color: blueviolet;
+            color: beige;
+            border: 1px solid green;
+        }
+        ul li:nth-child(3)::after {
+            content: "*";
+            color: rgb(166, 255, 0);
+            
+        }
+
+        ul li:nth-child(even) {
+            background-color: red;
+        }  
+        
+        ul li:nth-child(odd) {
+            background-color: rgb(252, 126, 126);
+        }
+        
+        /* .chocolate-bg {
+            background-color: chocolate;
+        } */
+    </style>
+  </head>
+  <body>
+    <h1>Pseudo Class'ları</h1>
+    <br />
+    <br />
+    <a href="http://youtube.com">Youtube.cooom</a><br>
+    <a href="http://google.com.tr">Google.com.tr</a>
+    <br />
+    <br />
+    <button>Buraya Tıkla</button>
+    <br />
+    <br />
+    <ul>
+      <li>Liste elemanı - 1</li>
+      <li>Liste elemanı - 2</li>
+      <li>Liste elemanı - 3</li>
+      <li>Liste elemanı - 4</li>
+      <li>Liste elemanı - 5</li>
+      <li>Liste elemanı - 6</li>
+      <li>Liste elemanı - 7</li>
+      <li>Liste elemanı - 8</li>
+      <li>Liste elemanı - 9</li>
+      <li>Liste elemanı - 10</li>
+    </ul>
+  </body>
+</html>
